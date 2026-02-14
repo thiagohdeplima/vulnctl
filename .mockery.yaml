@@ -1,0 +1,18 @@
+inpackage: true
+log-level: info
+packages:
+  github.com/thiagohdeplima/riskctl/internal/config:
+    config:
+      all: true
+      recursive: true
+      inpackage: true
+  github.com/thiagohdeplima/riskctl/internal/findings:
+    config:
+      all: true
+      recursive: true
+      inpackage: true
+  github.com/thiagohdeplima/riskctl/internal/renderer:
+    config:
+      all: true
+      recursive: true
+      inpackage: true
